@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Suma un caso — Fichero de la Censura</title>
+  <meta name="description" content="Suma un caso al fichero de documentación de censura en las artes plásticas de Puerto Rico. Formulario de contacto del proyecto de Isabelle Carolina Rosa Santos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-brand" href="index.html">
+        <span class="brand-title">Fichero de la Censura</span>
+        <span class="brand-sub">Arte y Memoria en Puerto Rico</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menú</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="casos.html">El Fichero</a></li>
+          <li><a href="linea-de-tiempo.html">Línea de Tiempo</a></li>
+          <li><a href="que-es-censura.html">¿Qué es Censura?</a></li>
+          <li><a href="contexto.html">Contexto</a></li>
+          <li><a href="metodologia.html">Metodología</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <span class="kicker">Un fichero abierto</span>
+      <h1>Contacto — Suma un caso</h1>
+      <p class="lede">«Siempre supe que se trata de un trabajo continuo, prácticamente interminable, pero no imposible. Mi intención es exponer los casos encontrados según mi criterio y comprensión de la censura, y permitir que se sigan sumando nuevos casos con el tiempo».</p>
+
+      <div class="prose">
+        <p>Este fichero nació de una constatación: aunque existe mucha información, no hay una recopilación clara y estructurada que permita analizar casos de censura a lo largo del tiempo. Muchos casos existen con información incompleta, otros no se han podido corroborar, y algunos son contemporáneos. Por eso el archivo permanece abierto: si conoces un caso de censura en las artes plásticas de Puerto Rico —propio o de otra persona—, puedes compartirlo aquí.</p>
+        <p>Para documentar un caso ayuda toda la información que puedas aportar: quién es la persona artista, cuál es la obra o el evento afectado, la fecha (aunque sea aproximada), el lugar o la institución donde ocurrió, qué pasó exactamente, y cualquier fuente que lo respalde: notas de prensa, documentos, fotografías o testimonios. Si no tienes todos los datos, envía lo que tengas; los casos incompletos también forman parte de esta historia.</p>
+      </div>
+
+      <form class="contact-form" action="#" onsubmit="alert('Prototipo: el formulario aún no está conectado.'); return false;">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="artista-obra">Artista u obra afectada</label>
+          <input type="text" id="artista-obra" name="artista-obra" required>
+        </div>
+        <div>
+          <label for="descripcion">Descripción del caso</label>
+          <textarea id="descripcion" name="descripcion" rows="7" required placeholder="Qué ocurrió, cuándo (aunque sea una fecha aproximada), dónde y qué institución o actores estuvieron involucrados."></textarea>
+        </div>
+        <div>
+          <label for="fuentes">Fuentes (opcional)</label>
+          <textarea id="fuentes" name="fuentes" rows="4" placeholder="Enlaces de prensa, documentos, fotografías, testimonios u otra evidencia."></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn">Enviar caso</button>
+        </div>
+      </form>
+
+      <div class="nota-editorial">
+        <p>Nota: este sitio es un prototipo académico y el formulario aún no almacena los envíos. Cuando la plataforma esté activa, cada caso recibido será verificado según los criterios de la <a href="metodologia.html">metodología del proyecto</a> —información verificable y respaldo investigativo suficiente— antes de su publicación en el fichero.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Fichero de la Censura</h4>
+          <p>Plataforma de documentación de casos de censura en las artes plásticas de Puerto Rico. Basada en el Proyecto de Conclusión de Isabelle Carolina Rosa Santos, Maestría en Gestión y Administración Cultural, Universidad de Puerto Rico, Recinto de Río Piedras (2026).</p>
+        </div>
+        <div>
+          <h4>Explorar</h4>
+          <ul>
+            <li><a href="casos.html">El Fichero</a></li>
+            <li><a href="linea-de-tiempo.html">Línea de Tiempo</a></li>
+            <li><a href="que-es-censura.html">¿Qué es Censura?</a></li>
+            <li><a href="contexto.html">Contexto Histórico</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Proyecto</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre el Proyecto</a></li>
+            <li><a href="metodologia.html">Metodología</a></li>
+            <li><a href="fuentes.html">Fuentes</a></li>
+            <li><a href="contacto.html">Suma un caso</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-legal">Prototipo académico. Los textos provienen de la investigación citada y se presentan con fines educativos y de documentación. © 2026 Isabelle Carolina Rosa Santos.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

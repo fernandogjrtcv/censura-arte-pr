@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+  CANONICAL PAGE TEMPLATE — every page of the site MUST use this exact
+  header, nav, footer, and <head>. Replace only:
+    - {{TITLE}} in <title>
+    - {{DESCRIPTION}} in meta description
+    - aria-current="page" goes on the nav link of the CURRENT page only
+    - the contents of <main>
+  Pages in /casos/ must prefix relative URLs with ../ (e.g. ../css/styles.css,
+  ../casos.html, ../index.html).
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}} — Fichero de la Censura</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-brand" href="index.html">
+        <span class="brand-title">Fichero de la Censura</span>
+        <span class="brand-sub">Arte y Memoria en Puerto Rico</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menú</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="casos.html">El Fichero</a></li>
+          <li><a href="linea-de-tiempo.html">Línea de Tiempo</a></li>
+          <li><a href="que-es-censura.html">¿Qué es Censura?</a></li>
+          <li><a href="contexto.html">Contexto</a></li>
+          <li><a href="metodologia.html">Metodología</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- PAGE CONTENT HERE -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Fichero de la Censura</h4>
+          <p>Plataforma de documentación de casos de censura en las artes plásticas de Puerto Rico. Basada en el Proyecto de Conclusión de Isabelle Carolina Rosa Santos, Maestría en Gestión y Administración Cultural, Universidad de Puerto Rico, Recinto de Río Piedras (2026).</p>
+        </div>
+        <div>
+          <h4>Explorar</h4>
+          <ul>
+            <li><a href="casos.html">El Fichero</a></li>
+            <li><a href="linea-de-tiempo.html">Línea de Tiempo</a></li>
+            <li><a href="que-es-censura.html">¿Qué es Censura?</a></li>
+            <li><a href="contexto.html">Contexto Histórico</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Proyecto</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre el Proyecto</a></li>
+            <li><a href="metodologia.html">Metodología</a></li>
+            <li><a href="fuentes.html">Fuentes</a></li>
+            <li><a href="contacto.html">Suma un caso</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-legal">Prototipo académico. Los textos provienen de la investigación citada y se presentan con fines educativos y de documentación. © 2026 Isabelle Carolina Rosa Santos.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

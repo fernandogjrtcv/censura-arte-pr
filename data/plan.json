@@ -1,0 +1,385 @@
+{
+  "thesisTitle": "Fichero de documentación y casos de censura en Puerto Rico",
+  "thesisAuthor": "Isabelle Carolina Rosa Santos — Proyecto de Conclusión, Maestría en Gestión y Administración Cultural (MAGAC), Programa en Estudios Interdisciplinarios, Facultad de Humanidades, Universidad de Puerto Rico, Recinto de Río Piedras. Comité: Pedro Reina Pérez (mentor), Sonya Canetti Mirabal y Efrén Rivera Ramos (lectores). Aprobado en mayo de 2026.",
+  "thesisSummary": "La tesis examina la relación entre arte, censura y memoria en Puerto Rico desde la década de 1950 hasta el presente, tratando las artes plásticas como un espacio de conflicto ideológico, político y cultural. Nacida de la controversia en torno a la obra de Garvin Sierra en la Poli/Gráfica 2024 —que la autora presenció mientras trabajaba en el Instituto de Cultura Puertorriqueña—, la investigación argumenta que la censura en Puerto Rico no se reduce a la prohibición directa: opera mediante presiones institucionales, decisiones curatoriales, dilaciones burocráticas, retiro de auspicios, vigilancia policial, vandalismo dirigido, omisión historiográfica y violencia simbólica, todo inscrito en la dinámica del poder colonial que arranca con la Ley 53 de 1948 (Ley de la Mordaza), el carpeteo y la institucionalización de la cultura bajo el ICP. Mediante historia oral (conversaciones exploratorias con 12 referentes: artistas, historiadores, gestores culturales y juristas) y un análisis jurídico que distingue la censura estatal de la privada (Art. 74 del Código Civil de 2020), la autora documenta ocho casos principales —Garvin Sierra, Antonio Martorell, Rafael Trelles, Ramón Frade, Julio Rosado del Valle, Elsa María Meléndez, Colectivo Moriviví y Ada Rosa Rivera— y produce dos entregables: un fichero físico de documentación de casos y un prototipo de página web que simula una futura plataforma digital pública, precisamente el sitio que este plan desarrolla. Concluye que la censura es una práctica compleja y vigente que opera mediante relaciones de poder, mecanismos de exclusión y disputas sobre la memoria, la representación y la libertad de expresión.",
+  "siteName": "Fichero de la Censura — Arte y Memoria en Puerto Rico",
+  "pages": [
+    {
+      "slug": "/",
+      "navLabel": "Inicio",
+      "purpose": "Landing page that frames the project in one screen and routes visitors to the fichero, the timeline, and the methodology.",
+      "contentPlan": "Hero: site name + tagline drawn from the Resumen ('la censura en Puerto Rico no constituye un fenómeno aislado ni exclusivamente legal, sino una práctica compleja...'). Below the hero: (1) a 3-4 sentence 'Sobre el proyecto' capsule (from the Resumen, pp. 2-3) with link to /sobre; (2) 'Casos destacados' — 3 featured case cards (Garvin Sierra/Poli/Gráfica 2024 as the anchor event, Martorell/ABC de Puerto Rico 1968, Moriviví mural 2015) linking to their permalinks; (3) a horizontal mini-timeline strip (1948 → 2025) linking to /linea-de-tiempo; (4) a featured quote block rotating the best quotes (see bestQuotes); (5) a call-to-action band 'Suma un caso' quoting the thesis's own invitation ('permitir que se sigan sumando nuevos casos con el tiempo', p. 6) linking to /contacto. Unlike the Brazilian reference, the archive does NOT live on the homepage — it gets its own page with permalinks."
+    },
+    {
+      "slug": "/casos",
+      "navLabel": "El Fichero",
+      "purpose": "The core case archive: every documented censorship case rendered as a standardized, citable record with its own permalink (/casos/[slug]).",
+      "contentPlan": "Adapt the Observatório's rigid per-case schema to: Artista / Obra o evento / Fecha / Lugar (municipio + institución) / Mecanismo de censura (typology from the thesis: prohibición directa, presión institucional, censura burocrática, retiro de auspicio, vigilancia/intimidación, vandalismo dirigido, destrucción física, omisión historiográfica, censura discursiva, censura estructural) / Caso (narrative from thesis Chapter III, pp. 28-41) / Testimonio (oral-history material from the conversatorios where available) / Fuentes (per-case citations from the Bibliografía, pp. 45-50). Add what the reference site lacks: filters by mechanism type, decade, and artist; and a small stats strip (casos por década, por mecanismo). The 8 fichero cases (pp. 27-28) get full entries built from the detailed case studies: Garvin Sierra (pp. 28-30), Moriviví/Paz para la Mujer mural (pp. 30-31), Elsa María Meléndez (pp. 31-32), Ada Rosa Rivera (pp. 32-34), Rafael Trelles 'Natividad' (pp. 34-36, MUST include the credits note Trelles requested: concept, direction, cameras, music, acknowledgments, dedication to Beatriz Rosado), Julio Rosado del Valle (pp. 36-38), Antonio Martorell (pp. 38-40, three sub-episodes), Ramón Frade (pp. 40-41). Secondary entries for Buscaglia's 'Altar a la Patria' and Las Jornadas del Grabado 'Isla Pirata' (pp. 33-34). Editorial note per entry when information is incomplete, echoing the thesis's honesty about 'casos dispersos, incompletos o poco documentados' (p. 43). IMPORTANT: exclude draft advisor comments visible on pp. 29-30 from all published copy."
+    },
+    {
+      "slug": "/linea-de-tiempo",
+      "navLabel": "Línea de Tiempo",
+      "purpose": "Interactive chronological visualization — the thesis itself proposes the exhibition 'organizada como línea de tiempo' (p. 26), so this page realizes the author's own curatorial concept digitally.",
+      "contentPlan": "Vertical scroll timeline from the 1930s to 2025 using the timeline entries below. Each node: year, event title, 1-2 sentence description, link to the full case record or to /contexto for structural/legal events. Visually distinguish three layers per the thesis's framing: (a) marco legal/estatal (carpeteo, Ley 53, creación del ICP, derogación 1957, PS0273), (b) casos de censura de obras/artistas, (c) casos comparativos externos (orden ejecutiva Smithsonian 2025), so continuity of 'la lógica de control simbólico instaurada en 1948' (pp. 16-17) reads at a glance."
+    },
+    {
+      "slug": "/que-es-censura",
+      "navLabel": "¿Qué es Censura?",
+      "purpose": "Public-facing definitional and legal framework — the equivalent of the reference site's published methodology criteria, which is what gives it academic credibility.",
+      "contentPlan": "Three sections. (1) 'Definiciones': the thesis's working definition ('Cuando se suprime información o se limita la libertad de expresión... se está ejerciendo censura', pp. 11-12), the concepto.de classification (directa/indirecta, total/parcial; causas políticas, morales, religiosas, militares, corporativas; autocensura, p. 20), and the key expansion: censorship also occurs 'cuando se restringen las condiciones necesarias para que esa obra pueda existir y ser vista' (p. 30). (2) 'Mecanismos': the typology synthesized from Chapter III — presión institucional, decisiones curatoriales, exclusión presupuestaria, dilación burocrática, vigilancia e intimidación, vandalismo dirigido, destrucción física, omisión historiográfica (Ramos Borges), censura discursiva desde el propio campo artístico. (3) 'Marco legal en Puerto Rico': Art. II de la Constitución del ELA; the asymmetry analysis via Efrén Rivera Ramos — constitutional protection applies against the State, while private-actor censorship relies on the newer, less-developed statutory route of Art. 74 del Código Civil 2020 (dignidad, libertad de pensamiento y de creación intelectual) (pp. 24-26); closing with the thesis's call for public policy and specific legislation."
+    },
+    {
+      "slug": "/contexto",
+      "navLabel": "Contexto Histórico",
+      "purpose": "Narrative essay page giving the historical spine: how censorship became structural in Puerto Rico from the 1930s-50s onward.",
+      "contentPlan": "Long-form editorial article built from pp. 8-10 and 14-20: el carpeteo (desde los años 1930), la Ley 53 de 1948 y la persecución ordenada desde La Fortaleza ('por tener ideas comunistas'), DIVEDCO (1949-50) y el debate sobre identidad, la institucionalización de la cultura bajo el ICP como 'cedazo' ideológico (Martínez 2022), la derogación de 1957 y la persistencia del silenciamiento (Acosta Lespier; Cancel Sepúlveda; Álvarez Curbelo), la omisión de la vanguardia de los 60-70 (Ramos Borges 2019), y la reconfiguración contemporánea: controversias en bienales, vandalismo de murales, PS0273 (2025) y la orden ejecutiva contra el Smithsonian (2025). Include the theoretical layer in compact sidebars: Jelin (memoria y silencio), Rivera Cusicanqui (ch'ixi), Walsh (pedagogías insurgentes y re-existencia), Vich (arte que interrumpe la naturalización del orden), García Canclini (ciudadanía cultural en contexto colonial) (pp. 19-23)."
+    },
+    {
+      "slug": "/metodologia",
+      "navLabel": "Metodología",
+      "purpose": "Transparency page explaining how cases enter the fichero — mirrors the reference site's strongest credibility feature.",
+      "contentPlan": "(1) Historia oral: informal exploratory conversations with 12 referentes, listed with their roles (Efrén Rivera Ramos, Humberto Figueroa Torres, Garvin Sierra Vega, Nick Quijano, Irene Estévez Amador, Jonathan J. Berríos Domínguez, Antonio Martorell, Elsa María Meléndez, Yrsa Dávila, Flavia Marichal, Rafael Trelles, Ada Rosa Rivera) (pp. 23-24), plus the snowball-referral method for corroborating cases (p. 14). (2) Criterios de inclusión: only cases with 'información verificable y respaldo investigativo suficiente' — documentary evidence, testimonies, contextual analysis; not every allegation is automatically included (p. 27). (3) Alcance y límites: continuity framing ('un trabajo continuo, prácticamente interminable', p. 6), acknowledgment that many cases remain 'dispersos, incompletos o poco documentados' (p. 43), and the stance that the project 'no pretende imponer una definición absoluta, sino abrir un espacio de análisis y documentación crítica' (p. 43). (4) Antecedentes: the genealogy of similar projects — Observatório da Censura (Brasil), Museu de l'Art Prohibit (Barcelona), Museo Itinerante Arte por la Memoria (Lima, 2009, via Vich 2021), and Puerto Rican scholarship (Ramos 2020) (pp. 12-14)."
+    },
+    {
+      "slug": "/sobre",
+      "navLabel": "Sobre el Proyecto",
+      "purpose": "Origin story, author, academic credentials, and objectives.",
+      "contentPlan": "(1) 'Origen': first-person narrative from Capítulo I — working at the ICP during the Poli/Gráfica 2024, witnessing the Garvin Sierra controversy, the Derecho y Cultura course discussion of the 2025 Smithsonian order, and the discovery that 'no hay una recopilación clara y estructurada' of censorship cases (pp. 4-6). (2) 'Objetivos': the three specific objectives verbatim-adapted (p. 7). (3) 'Justificación': why studying censorship matters in colonial contexts despite constitutional guarantees (pp. 7-8, 11-12). (4) 'La autora y el comité': Isabelle Carolina Rosa Santos; Maestría en Gestión y Administración Cultural, UPR Río Piedras; comité Pedro Reina Pérez, Sonya Canetti Mirabal, Efrén Rivera Ramos; aprobado mayo 2026. (5) 'Del fichero físico a la plataforma digital': the two deliverables and the aspiration of a future physical exhibition (pp. 26-27, 43-44), closing with the Vich epigraph: 'El arte es un discurso con coraje que no teme mostrar sus propias heridas.'"
+    },
+    {
+      "slug": "/fuentes",
+      "navLabel": "Fuentes",
+      "purpose": "Full bibliography and per-case press sources, making every claim independently verifiable (the reference site's 'Publicações' principle, elevated to a page).",
+      "contentPlan": "Organized bibliography from pp. 45-50 in three groups: (1) Marco teórico (Vich, Jelin, García Canclini, Rivera Cusicanqui, Walsh, Quijano, Segato); (2) Historia y censura en Puerto Rico (Acosta Lespier, Ramos Borges 2019, Cancel Sepúlveda y Márquez, Álvarez Curbelo, Berríos Domínguez 2007, Abreu Gómez 2021, editoriales de Claridad); (3) Prensa y fuentes por caso (Revista Plástica, Artishock, Radio Isla 1320, Claridad y Rodríguez Alicea para Poli/Gráfica 2024; El Nuevo Día y Metro PR para el mural de Santurce 2015; AP/BBC Mundo/White House para la orden del Smithsonian; Platea PR para PS0273; MoMA/NYPL/80grados para ABC de Puerto Rico; Museo de Arte de Puerto Rico y Taller Malaquita para fichas de artistas). Each case permalink deep-links to its entries here. Exclude the author's note-to-self about UPR museum archives."
+    },
+    {
+      "slug": "/contacto",
+      "navLabel": "Contacto",
+      "purpose": "Contact page and public case-intake form so the fichero can keep growing beyond the thesis, per the author's stated intent.",
+      "contentPlan": "Short framing text quoting the thesis: 'Mi intención es exponer los casos encontrados... y permitir que se sigan sumando nuevos casos con el tiempo' (p. 6). Form fields modeled on a case record: nombre, email, artista/obra afectada, fecha aproximada, lugar, descripción de lo ocurrido, fuentes o evidencia, testimonio (optional), consent checkbox. Clear notice that submissions are verified against the criteria on /metodologia before publication (mirrors the reference site's denúncia + verification flow). General contact email and social links (pending owner decision)."
+    }
+  ],
+  "allCases": [
+    {
+      "artworkOrEvent": "El carpeteo — expedientes de vigilancia del FBI y del gobierno sobre artistas e intelectuales",
+      "artist": "Artistas e intelectuales considerados opuestos al 'ideal americano'",
+      "year": "Desde los años 1930",
+      "whatHappened": "El FBI y el gobierno generaron carpetas de vigilancia sobre cualquier persona con ideas opuestas al Estado o consideradas comunistas — mecanismo de intimidación y control sobre artistas cuyo trabajo se apartaba del discurso oficial.",
+      "sourcePages": "9-10"
+    },
+    {
+      "artworkOrEvent": "Ley 53 de 1948 (Ley de la Mordaza) — persecución de artistas e intelectuales",
+      "artist": "Generación de artistas, cartelistas e intelectuales de los años 40-50",
+      "year": "1948-1957 (derogada en 1957)",
+      "whatHappened": "La ley penalizó exhibir la bandera puertorriqueña, cantar himnos patrióticos y difundir discurso independentista, criminalizando símbolos de identidad nacional. Las órdenes de persecución venían directamente de La Fortaleza contra artistas 'por tener ideas comunistas'; carteles y obras usadas como protesta fueron censurados. El silenciamiento cultural persistió aun tras la derogación (Acosta Lespier; Cancel Sepúlveda).",
+      "sourcePages": "7, 9-10, 15-16, 43"
+    },
+    {
+      "artworkOrEvent": "Institucionalización de la cultura: el Instituto de Cultura Puertorriqueña como 'cedazo' ideológico",
+      "artist": "Producción artística puertorriqueña en general",
+      "year": "Década de 1950 (bajo el ELA)",
+      "whatHappened": "El gobierno de Muñoz Marín transfirió la creación artístico-cultural al nuevo ICP, que se convirtió en el cedazo por donde cada producción era escrutinizada según la ideología política del gobierno de turno — censura estructural vía institucionalización de la cultura (Martínez 2022).",
+      "sourcePages": "10"
+    },
+    {
+      "artworkOrEvent": "Destrucción del mural religioso de la iglesia de Cayey (ángel negro en posición jerárquica superior)",
+      "artist": "Ramón Frade León",
+      "year": "Sin fecha precisa (primera mitad del siglo XX; mural 'Altar del Perpetuo Socorro' iniciado en 1954, luego destruido)",
+      "whatHappened": "El mural fue removido deliberadamente — no restaurado — con destrucción física del conjunto y cobertura total de la pintura original; otro mural de Frade en la misma iglesia se conservó, lo que indica selectividad. Berríos Domínguez (2007) vincula la eliminación a prejuicios raciales por la figura de un ángel negro en posición jerárquica superior, que desafiaba las convenciones iconográficas, o a deterioro material. El altar de 'Nuestra Señora de la Merced' (1945) sobrevive en condición precaria.",
+      "sourcePages": "27, 40-41"
+    },
+    {
+      "artworkOrEvent": "Censura del libro 'ABC de Puerto Rico' (texto de Isabelita Freire de Matos, ilustrado por Antonio Martorell)",
+      "artist": "Antonio Martorell",
+      "year": "1968 (edición detenida tras las elecciones de 1968)",
+      "whatHappened": "El libro educativo, inicialmente exitoso y distribuido por miles por el Departamento de Educación, tuvo una edición ya impresa detenida por el Departamento bajo Ramón Mellado Parsons tras las elecciones de 1968. Pese a premios del ICP y del American Institute of Graphic Arts y a exhibirse en el MoMA, su circulación fue limitada por razones políticas; hubo denuncia internacional (International Council for Children's Books) y el libro devino objeto cultural escaso y valioso.",
+      "sourcePages": "27, 38-39"
+    },
+    {
+      "artworkOrEvent": "Collage censurado en la revista del Departamento de Estudios Hispánicos de la UPR (revista Puerto)",
+      "artist": "Antonio Martorell",
+      "year": "1968",
+      "whatHappened": "Comisionado y aprobado inicialmente, el collage que combinaba imaginería de consumo con escenas de violencia fue censurado por la dirección del departamento como 'inapropiado'; la revista nunca se distribuyó y el equipo editorial renunció — censura operando incluso después de procesos de aprobación (documentado en La Escalera).",
+      "sourcePages": "39-40"
+    },
+    {
+      "artworkOrEvent": "Persecución política y censura estructural contra Antonio Martorell (exclusión de contratos públicos, vigilancia, allanamiento del FBI)",
+      "artist": "Antonio Martorell",
+      "year": "Décadas de 1960-1980; allanamiento del FBI en 1985",
+      "whatHappened": "Exclusión de contratos públicos por ser considerado 'subversivo', restricciones profesionales, vigilancia, arrestos de colaboradores y el allanamiento de su hogar por el FBI en 1985, en el contexto de la persecución política en Puerto Rico.",
+      "sourcePages": "40"
+    },
+    {
+      "artworkOrEvent": "Omisión de la vanguardia artística puertorriqueña (1960-1970) de la narrativa oficial del arte",
+      "artist": "Artistas de la vanguardia de los años 60-70",
+      "year": "1960s-1970s (estudiado por Ramos Borges, 2019)",
+      "whatHappened": "Pese a abundante documentación de archivo (reseñas, catálogos, registros institucionales), estas prácticas fueron sistemáticamente marginadas de los textos canónicos y las colecciones de museos — censura por omisión historiográfica, no por falta de documentación.",
+      "sourcePages": "20, 46"
+    },
+    {
+      "artworkOrEvent": "Exclusión de dibujos de la exposición 'Arte 70–Puerto Rico', Museo de la UPR",
+      "artist": "Julio Rosado del Valle",
+      "year": "1970-1971",
+      "whatHappened": "Sus dibujos fueron excluidos alegando que su contenido erótico era inadecuado para un público mayormente escolar — censura preventiva por criterios morales ('adecuación'), no estéticos. El profesor Benjamín Nistal denunció públicamente la exclusión arbitraria; la administración defendió un 'criterio selectivo'. En un momento clave, el director interino Luis Hernández Cruz ordenó cerrar la sala y apagar las luces, expulsando al público e interrumpiendo la propia discusión crítica.",
+      "sourcePages": "27, 36-38"
+    },
+    {
+      "artworkOrEvent": "Controversias en torno a las Bienales de San Juan de 1970 y 1976",
+      "artist": "Varios artistas participantes",
+      "year": "1970 y 1976",
+      "whatHappened": "Mencionadas en el Capítulo I como parte del alcance del proyecto (controversias en las Bienales del Grabado Latinoamericano y del Caribe junto a intervenciones políticas en instituciones museísticas); el detalle no se desarrolla en los resúmenes disponibles.",
+      "sourcePages": "7, 17"
+    },
+    {
+      "artworkOrEvent": "'Natividad' — performance e instalación multimedia en homenaje a Filiberto Ojeda Ríos",
+      "artist": "Rafael Trelles (con Oscar Guerrero y colaboradores)",
+      "year": "2005",
+      "whatHappened": "Intervención urbana documentada en video: agua teñida de rojo vertida en la Corte Federal, Plaza Las Américas y la Guardia Nacional como metáfora de la sangre derramada en la casa de Ojeda Ríos el día de su muerte a manos del FBI (23 de septiembre de 2005). Agentes de la Policía de Puerto Rico intervinieron, cuestionando y confrontando a los participantes — censura indirecta o performativa mediante vigilancia, intimidación e interrupción del acto artístico. El caso debe publicarse con los créditos solicitados por Trelles y la dedicatoria a Beatriz Rosado.",
+      "sourcePages": "27, 34-36"
+    },
+    {
+      "artworkOrEvent": "Sustitución de obra con la bandera puertorriqueña en exposición en el Capitolio de Puerto Rico",
+      "artist": "Ada Rosa Rivera",
+      "year": "2011",
+      "whatHappened": "Se le pidió sustituir su obra porque usaba la bandera puertorriqueña como elemento central — no una prohibición explícita, sino un mecanismo de presión que condicionó su participación. Sus testimonios documentan además restricciones institucionales recurrentes en espacios culturales y gubernamentales.",
+      "sourcePages": "28, 32-33"
+    },
+    {
+      "artworkOrEvent": "Dilaciones y cancelaciones del proyecto colectivo 'Isla Pirata'",
+      "artist": "Colectivo Las Jornadas del Grabado",
+      "year": "Sin fecha en la tesis",
+      "whatHappened": "El proyecto enfrentó retrasos o cancelaciones tras procesos de evaluación, especialmente cuando el contenido se consideró políticamente sensible — censura burocrática: la exclusión ocurre mediante dilación administrativa en lugar de negativas directas.",
+      "sourcePages": "33"
+    },
+    {
+      "artworkOrEvent": "'Altar a la Patria' — almacenamiento prolongado y reubicación con pérdida de elementos originales",
+      "artist": "José Buscaglia Guillermety",
+      "year": "Sin fecha en la tesis",
+      "whatHappened": "Aprobada y financiada, la escultura permaneció años almacenada sin instalarse; luego fue colocada en un lugar menos visible y sin los elementos originales del diseño, alterando su significado — censura estructural que limita visibilidad e impacto público sin prohibir la obra.",
+      "sourcePages": "34"
+    },
+    {
+      "artworkOrEvent": "Intervención del mural sobre el cuerpo femenino y la violencia de género en Santurce (encargado por Paz para la Mujer, inspirado en la fotografía 'Venus' de Nadar)",
+      "artist": "Colectivo Moriviví",
+      "year": "2015",
+      "whatHappened": "El mural, que representaba a una mujer con el torso desnudo para reivindicar el cuerpo femenino y denunciar la violencia de género, fue alterado sin consentimiento: alguien pintó un sostén blanco sobre los senos y cubrió la zona pélvica de otra figura femenina. La tesis lo lee no como vandalismo aleatorio sino como censura: una intervención dirigida a alterar el mensaje original ocultando el cuerpo femenino (El Nuevo Día y Metro PR, 27 oct 2015; reportaje de Jessica Ríos Viner). [Nota: la tesis parece tratar el mural de Paz para la Mujer y el mural de Moriviví como el mismo caso — confirmar con la autora.]",
+      "sourcePages": "18, 27, 30-31, 46-47"
+    },
+    {
+      "artworkOrEvent": "Controversia por la exposición 'Perspectiva de género: colectiva de hombres artistas', Museo de Arte de Caguas",
+      "artist": "Elsa María Meléndez (gestora del proyecto)",
+      "year": "2017",
+      "whatHappened": "La muestra reunió a artistas hombres para cuestionar críticamente las construcciones de género y masculinidad, invirtiendo el formato usual. Desde su anuncio generó fuertes críticas en círculos artísticos y plataformas digitales por supuestamente recentrar la voz masculina (80grados+). Sin prohibición formal, la crítica constante condicionó la recepción del proyecto y la percepción de la artista — censura discursiva ejercida desde el interior del propio campo artístico.",
+      "sourcePages": "27, 31-32"
+    },
+    {
+      "artworkOrEvent": "Episodios recopilados en 'Censuras en el arte puertorriqueño: del 26 de septiembre al 2 de octubre de 2021'",
+      "artist": "Varios artistas puertorriqueños (recopilación de Isamar Abreu)",
+      "year": "2021",
+      "whatHappened": "Artículo digital de Isamar Abreu (Biblioteca José M. Lázaro, UPRRP) que documenta episodios recientes de obras cuestionadas, removidas o sometidas a controversia pública — registro contemporáneo de la persistencia de mecanismos de regulación cultural.",
+      "sourcePages": "18"
+    },
+    {
+      "artworkOrEvent": "Retiro del auspicio de la Compañía de Turismo a la exposición 'Un grito en la mano', Museo de las Américas",
+      "artist": "Garvin Sierra Vega",
+      "year": "2023",
+      "whatHappened": "La Compañía de Turismo retiró su auspicio a la exposición — acción que no prohíbe la obra directamente pero limita recursos y respaldo institucional, afectando la difusión del mensaje artístico: censura por asfixia de condiciones.",
+      "sourcePages": "29"
+    },
+    {
+      "artworkOrEvent": "'Retratos de una deuda' — Trienal Poli/Gráfica de Puerto Rico 2024 (caso ancla del proyecto)",
+      "artist": "Garvin Sierra Vega",
+      "year": "2024",
+      "whatHappened": "La curadora Lisa Ladner indicó que la pieza —crítica de la deuda pública— no podía exhibirse completa por recibir la muestra fondos estatales y federales, y se pidió modificar la presentación para evitar 'conflictos diplomáticos'. Sierra lo denunció como censura, se retiró de la trienal y escribió al director del ICP, Carlos Ruiz Cortés. Ladner negó censura (razones logísticas y curatoriales; consultó supervisores por su rol de cónsul honoraria de Suiza). El ICP se disculpó por el 'malentendido' y removió a Ladner como curadora. Más de 30 artistas retiraron sus obras en protesta; cobertura de Claridad, Radio Isla, Revista Plástica y Artishock.",
+      "sourcePages": "4-5, 17, 28-30, 43"
+    },
+    {
+      "artworkOrEvent": "Vandalizaciones de murales y controversias de exhibición documentadas por Claridad",
+      "artist": "Varios",
+      "year": "2024",
+      "whatHappened": "El editorial 'Puerto Rico, arte y censura en la colonia' y reportajes de Claridad muestran que los mecanismos de silenciamiento se han transformado, no desaparecido: exclusión institucional, presión política, cancelación de proyectos y estigmatización pública operan hoy como censura indirecta.",
+      "sourcePages": "16, 18-19"
+    },
+    {
+      "artworkOrEvent": "Proyecto del Senado 273 (PS0273) — propuesta de eliminar el Instituto de Cultura Puertorriqueña",
+      "artist": "N/A (acción legislativa que afecta toda la producción cultural)",
+      "year": "2025 (radicado el 23 de enero de 2025)",
+      "whatHappened": "Propone eliminar el ICP y transferir sus funciones al Departamento de Desarrollo Económico. Presentado como eficiencia/modernización, la tesis argumenta que subordina la cultura a la lógica económica, de modo que deja de ser un fin en sí misma (Platea PR, 2025).",
+      "sourcePages": "11, 47"
+    },
+    {
+      "artworkOrEvent": "Orden ejecutiva de Trump contra la Institución Smithsonian ('Restoring Truth and Sanity to American History') — caso comparativo",
+      "artist": "N/A (museos del Smithsonian; contexto estadounidense)",
+      "year": "Marzo 2025",
+      "whatHappened": "Orden ejecutiva que restringe el alcance de los museos Smithsonian por supuesta ideología 'antiamericana': revisión de exhibiciones, materiales educativos y programas públicos para eliminar enfoques considerados ideológicos (raza, identidad, historia social), imponiendo una narrativa 'patriótica'. Citada como detonante contemporáneo de las preguntas de la autora y como caso comparativo (BBC Mundo, AP, White House 2025).",
+      "sourcePages": "5, 11, 46-47"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "Años 1930",
+      "event": "Comienza 'el carpeteo': el FBI y el gobierno abren expedientes de vigilancia sobre artistas e intelectuales con ideas opuestas al Estado."
+    },
+    {
+      "year": "1945",
+      "event": "Ramón Frade crea el altar de 'Nuestra Señora de la Merced' para la iglesia de Cayey (hoy conservado en condición precaria)."
+    },
+    {
+      "year": "1948",
+      "event": "Se aprueba la Ley 53 (Ley de la Mordaza): criminaliza la bandera, los himnos patrióticos y el discurso independentista; persecución de artistas ordenada desde La Fortaleza."
+    },
+    {
+      "year": "1949-1950",
+      "event": "Se crea la DIVEDCO; el arte educativo y el cartel se vuelven terreno de disputa entre populismo y nacionalismo."
+    },
+    {
+      "year": "Década de 1950",
+      "event": "Institucionalización de la cultura bajo el ELA: el nuevo Instituto de Cultura Puertorriqueña opera como 'cedazo' ideológico de la producción artística."
+    },
+    {
+      "year": "1954",
+      "event": "Frade inicia el mural 'Altar del Perpetuo Socorro' en Cayey, posteriormente destruido; su mural con un ángel negro en posición jerárquica superior es eliminado deliberadamente (fecha imprecisa)."
+    },
+    {
+      "year": "1957",
+      "event": "Se deroga la Ley de la Mordaza, pero el silenciamiento cultural y la lógica de control simbólico persisten."
+    },
+    {
+      "year": "Años 1960-1970",
+      "event": "La vanguardia artística puertorriqueña es sistemáticamente omitida de la narrativa oficial del arte pese a abundante documentación (Ramos Borges, 2019)."
+    },
+    {
+      "year": "1968",
+      "event": "El Departamento de Educación detiene una edición ya impresa del 'ABC de Puerto Rico' (Freire de Matos / Martorell) tras las elecciones; el mismo año, un collage de Martorell es censurado en la revista Puerto de la UPR y el equipo editorial renuncia."
+    },
+    {
+      "year": "1970-1971",
+      "event": "Dibujos de Julio Rosado del Valle son excluidos de 'Arte 70–Puerto Rico' en la UPR por 'adecuación' moral; el director interino cierra la sala y apaga las luces en medio del debate público."
+    },
+    {
+      "year": "1970 y 1976",
+      "event": "Controversias en torno a las Bienales del Grabado de San Juan, en plena Guerra Fría y debates de soberanía."
+    },
+    {
+      "year": "1985",
+      "event": "El FBI allana el hogar de Antonio Martorell en el contexto de la persecución política; el artista sufre exclusión de contratos públicos por 'subversivo'."
+    },
+    {
+      "year": "2005",
+      "event": "La Policía de Puerto Rico interviene el performance 'Natividad' de Rafael Trelles, homenaje a Filiberto Ojeda Ríos (asesinado por el FBI el 23 de septiembre de 2005)."
+    },
+    {
+      "year": "2011",
+      "event": "A Ada Rosa Rivera se le pide sustituir su obra en el Capitolio de Puerto Rico por usar la bandera puertorriqueña como elemento central."
+    },
+    {
+      "year": "2015",
+      "event": "El mural del Colectivo Moriviví en Santurce (encargado por Paz para la Mujer) es intervenido: pintan un sostén blanco sobre el torso desnudo y cubren la zona pélvica de otra figura."
+    },
+    {
+      "year": "2017",
+      "event": "La exposición 'Perspectiva de género: colectiva de hombres artistas' de Elsa María Meléndez (Museo de Arte de Caguas) es objeto de censura discursiva desde el propio campo artístico."
+    },
+    {
+      "year": "2021",
+      "event": "Isamar Abreu documenta episodios de obras cuestionadas o removidas en 'Censuras en el arte puertorriqueño: del 26 de septiembre al 2 de octubre de 2021'."
+    },
+    {
+      "year": "2023",
+      "event": "La Compañía de Turismo retira su auspicio a 'Un grito en la mano' de Garvin Sierra en el Museo de las Américas."
+    },
+    {
+      "year": "2024",
+      "event": "Caso ancla: 'Retratos de una deuda' de Garvin Sierra en la Poli/Gráfica 2024 — el artista se retira denunciando censura, el ICP remueve a la curadora Lisa Ladner y más de 30 artistas retiran sus obras en protesta."
+    },
+    {
+      "year": "Enero 2025",
+      "event": "Se radica el PS0273, que propone eliminar el Instituto de Cultura Puertorriqueña y transferir sus funciones a Desarrollo Económico."
+    },
+    {
+      "year": "Marzo 2025",
+      "event": "Orden ejecutiva de Trump contra los museos Smithsonian ('Restoring Truth and Sanity to American History') — caso comparativo que detona las preguntas de la investigación."
+    },
+    {
+      "year": "Mayo 2026",
+      "event": "Se aprueba el Proyecto de Conclusión: fichero de documentación y prototipo web de la futura plataforma digital — origen de este sitio."
+    }
+  ],
+  "bestQuotes": [
+    {
+      "text": "La censura en Puerto Rico no constituye un fenómeno aislado ni exclusivamente legal, sino una práctica compleja que opera mediante relaciones de poder, mecanismos de exclusión y disputas sobre la memoria, la representación y la libertad de expresión dentro del campo cultural.",
+      "author": "Isabelle Carolina Rosa Santos (Resumen)",
+      "page": "3"
+    },
+    {
+      "text": "El arte es un discurso con coraje que no teme mostrar sus propias heridas.",
+      "author": "Víctor Vich (epígrafe de la Conclusión)",
+      "page": "44"
+    },
+    {
+      "text": "La censura no solo ocurre cuando se elimina una obra, sino también cuando se restringen las condiciones necesarias para que esa obra pueda existir y ser vista por el público.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "30"
+    },
+    {
+      "text": "No hay una recopilación clara y estructurada que permita analizar casos de censura a lo largo del tiempo. No encontré listas organizadas ni repositorios accesibles que permitieran identificar patrones o estudiar estos eventos de manera sistemática.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "6"
+    },
+    {
+      "text": "La censura no se manifiesta únicamente como prohibición directa, sino como conjunto de decisiones curatoriales, exclusiones presupuestarias, controversias mediáticas y actos de violencia simbólica que delimitan los márgenes de lo representable.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "19"
+    },
+    {
+      "text": "La lógica de control simbólico instaurada en 1948 se ha ido reconfigurando con el pasar de los años hasta el presente, adoptando nuevas formas que se ajustan a los cambios políticos y sociales.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "16-17"
+    },
+    {
+      "text": "¿En qué se basan para seleccionar obras o curar exposiciones? ¿Influyen ideologías o afiliaciones políticas? ¿Podría existir una dinámica de control disfrazada de libertad de expresión?",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "5"
+    },
+    {
+      "text": "En contextos donde la soberanía política es limitada o condicionada, como ocurre en Puerto Rico, el arte adquiere una relevancia particular como espacio desde el cual puede ejercerse una ciudadanía crítica y alternativa.",
+      "author": "Isabelle Carolina Rosa Santos (a partir de Néstor García Canclini)",
+      "page": "23"
+    },
+    {
+      "text": "Independientemente de la intención, cuando una obra es excluida por su contenido, se está limitando el acceso del público a ese mensaje.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "30"
+    },
+    {
+      "text": "Siempre supe que se trata de un trabajo continuo, prácticamente interminable, pero no imposible. Mi intención es exponer los casos encontrados según mi criterio y comprensión de la censura, y permitir que se sigan sumando nuevos casos con el tiempo.",
+      "author": "Isabelle Carolina Rosa Santos",
+      "page": "6"
+    },
+    {
+      "text": "El proyecto no pretende imponer una definición absoluta, sino abrir un espacio de análisis y documentación crítica.",
+      "author": "Isabelle Carolina Rosa Santos (Conclusión)",
+      "page": "43"
+    },
+    {
+      "text": "La destrucción de uno de sus murales demuestra cómo incluso obras de alto valor artístico pueden ser objeto de censura cuando desafían los códigos ideológicos dominantes.",
+      "author": "Isabelle Carolina Rosa Santos (sobre Ramón Frade)",
+      "page": "41"
+    }
+  ],
+  "designDirection": "Follow the reference site's sober, editorial, archival register but execute it with Puerto Rican graphic identity. Palette: near-black/charcoal background (#121315-#0B1524 range) with warm off-white text, echoing observatoriodacensura.com.br's documentation-not-spectacle tone; replace its ochre accent with a single restrained red — resonant with Trelles's red-water metaphor in 'Natividad' and with the visual language of protest — used only for interactive elements, timeline markers, and the 'Mecanismo de censura' tags. Typography: a serif for body and case narratives (e.g., Source Serif or Lora, echoing the reference's Georgia print-journalism feel) paired with a sans-serif for navigation, metadata fields, and filters. Draw a second visual thread from the Puerto Rican cartel/grabado tradition central to the thesis (DIVEDCO posters, Homar, Martorell): high-contrast woodcut-style textures or rules as section dividers, and case-index cards visually styled as fichas de archivo (index cards) to literalize the 'fichero' concept — each case record rendered like a typed archival card with stamped metadata fields (Artista / Fecha / Lugar / Mecanismo / Fuentes). Imagery: documentary photos, artwork reproductions, and press clippings, always captioned and credited; where images are missing or rights are unclear, use a deliberate 'imagen censurada/no disponible' placeholder treatment (redaction-bar motif) that itself reinforces the theme. Interaction: improve on the reference's flat scroll with individual case permalinks, filters by mechanism/decade/artist, a vertical timeline, and a small stats strip — but keep the interface quiet, text-forward, and citable. Accessibility: high contrast, generous line length control, Spanish-language semantic markup (lang=es).",
+  "openQuestions": [
+    "Confirm the merge of two apparent duplicates: is the mural commissioned by Paz para la Mujer (inspired by Nadar's 'Venus', p. 31) the same 2015 Santurce mural by Colectivo Moriviví (pp. 30, 46-47)? The reader summaries strongly suggest one case but the thesis text should be verified.",
+    "The draft contains unresolved advisor comments (p. 29 'Explicar brevemente en qué consistió el acto...' and p. 30 '¿de acuerdo con quién?'). These must be excluded from site copy — but do the underlying gaps (missing incident detail, unattributed claim in the Moriviví case) need new text from the author before publishing those cases?",
+    "The 'Imágenes' section (pp. 41-42) did not render in extraction. Which images exist in the final thesis, and — critically — does the author have reproduction rights/permissions for artwork photos, press photos (e.g., Jorge Ramírez C./El Nuevo Día photo of Ojeda Ríos), and social-media screenshots?",
+    "Should comparative/non-Puerto Rico items (Trump/Smithsonian executive order, PS0273 against the ICP) be full fichero entries or context-only items on /contexto and the timeline? The thesis treats them as context/justification, not fichero cases; the plan currently keeps them out of the 8-case fichero but on the timeline — confirm.",
+    "Several cases lack dates in the thesis (Frade mural destruction, 'Isla Pirata', 'Altar a la Patria', some Ada Rosa Rivera testimonies). Should the site publish them as 'fecha no determinada' or hold them until dated?",
+    "The Bienales de San Juan 1970/1976 controversies are announced in Chapter I but not developed in the extracted summaries. Is there thesis text to build a case entry, or should they appear only as timeline/context mentions?",
+    "Naming living individuals as censoring parties (e.g., curator Lisa Ladner, Secretary Ramón Mellado Parsons) on a public site carries legal/reputational sensitivity beyond an academic thesis. Confirm the author wants names published, and that each such entry presents both positions as the thesis does (Ladner's denial and stated reasons must appear).",
+    "Public case-intake form: does the author want to accept public denuncias at launch (implying a moderation/verification workflow and a responsible party), or launch read-only with contact email only?",
+    "Site name and domain: is 'Fichero de la Censura — Arte y Memoria en Puerto Rico' acceptable, or does the author prefer keeping the exact thesis title or an 'Observatorio'-style name? Also need the contact email and any social handles.",
+    "Copyright and attribution: the title page has a placeholder '© Derechos reservados, año' — confirm the copyright line, whether the UPR/MAGAC program must be credited, and whether the full thesis PDF should be downloadable from /sobre or /fuentes.",
+    "Language: plan assumes a Spanish-only site matching the thesis. Is an English version desired later (the Brazilian reference has none)?",
+    "Rafael Trelles explicitly requested a credits note for 'Natividad' (direction, cameras, music, acknowledgments, dedication to Beatriz Rosado). Confirm the exact wording to publish, and whether other interviewed referentes have similar attribution or consent requirements for their oral-history testimony."
+  ]
+}
